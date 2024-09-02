@@ -12,7 +12,7 @@ public class Student
     [Required(ErrorMessage = "Informe o nome")]
     [StringLength(80, ErrorMessage = "O nome deve ter no máximo 80 caracteres")]
     [MinLength(5, ErrorMessage = "O nome deve ter no mínimo 5 caracteres")]
-    [DisplayName("NOme completo")]
+    [DisplayName("Nome completo")]
     public string Name { get; set; } = string.Empty;
 
     [Required(ErrorMessage = "Informe o Email")]
